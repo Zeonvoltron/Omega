@@ -49,7 +49,7 @@ Omega was developed by Lorenzo Vittone in collaboration with Gregorio Vittone.
 Disclaimer: none of us is a real programmer, we learned the basics of PowerShell in less than a month just to make Omega, so you might see a lot of nonprofessional code in the scripts. Github and other programing webpages where of big help to make Omega.
 
 # How to install Omega?
-To install Omega, just download the Omega file available in the “view code” section and move it to C: \, once there double click the Omega.exe that is inside the folder, and its done. You should see how your desktop folders are replaced one by one by a shortcut with the same name of the folder.
+To install Omega, just download the Omega file available in the “view code” section and move it to "C:\", once there double click the Omega.exe that is inside the folder, and its done. You should see how your desktop folders are replaced one by one by a shortcut with the same name of the folder.
 
 Alternatively, you cud download the PowerShell scrips to edit them, compile them, and then do the installation with those files. The compiled files uploaded were created using PS2EXE compiler with the arguments -NoOutput, -NoError and -noVisualStyles.
 

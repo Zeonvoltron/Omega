@@ -10,7 +10,7 @@ There are many definitions of life, so there isn’t really a consensus about wh
 1)	It reproduces (makes copies of itself).
 2)	It has a way of storing the instructions of how it works, and how to make itself (Genetic Information), and that information is passed to the offspring.
 3)	Its Genetic Information can suffer mutations, which can influence the behavior of the organism and are passed to the offspring.
-4)	Environmental pressure can produce a selection of the best organisms in the task of reproducing, making the organisms change over time and adapt to changing environments to keep reproducing, or being the best at it.
+4)	Environmental pressure can produce a selection of the best organisms in the task of reproducing, making the organisms change over time and adapt to changing environments     to keep reproducing, or being the best at it.
 (As you can see, I’m focusing on the characteristics of life that enables it to evolve)
 So, if I want a program to be “alive”, I need it to have those characteristics.
 In this case Omega accomplishes those four characteristics the following way:

@@ -7,17 +7,17 @@ The goal is to create the most similar thing to a digital life form. This is not
 
 # What does a program need to behave like a living thing?
 There are many definitions of life, so there isn’t really a consensus about what life is, so I focused on the following characteristics:
-	>It reproduces (makes copies of itself).
-  >It has a way of storing the instructions of how it works, and how to make itself (Genetic Information), and that information is passed to the offspring.
-	>Its Genetic Information can suffer mutations, which can influence the behavior of the organism and are passed to the offspring.
-	>Environmental pressure can produce a selection of the best organisms in the task of reproducing, making the organisms change over time and adapt to changing environments      to keep reproducing, or being the best at it.
+	A. It reproduces (makes copies of itself).
+        B. It has a way of storing the instructions of how it works, and how to make itself (Genetic Information), and that information is passed to the offspring.
+	C. Its Genetic Information can suffer mutations, which can influence the behavior of the organism and are passed to the offspring.
+	D. Environmental pressure can produce a selection of the best organisms in the task of reproducing, making the organisms change over time and adapt to changing 	environments      to keep reproducing, or being the best at it.
 (As you can see, I’m focusing on the characteristics of life that enables it to evolve)
 So, if I want a program to be “alive”, I need it to have those characteristics.
 In this case Omega accomplishes those four characteristics the following way:
-	>Makes copies of itself in every drive it can reach.
-	>Stores its Genetic Information in the way of binary code (the one that codifies the executables that constitute the organism).
-	>It makes random changes to the bytes that codifies its offspring with a certain probability.
-	>The user of the computer, antivirus, drives and the computer itself are the environment on which Omega has to survive and reproduce, they apply pressure, and they change      with time, forcing Omega to adapt and evolve.
+	A. Makes copies of itself in every drive it can reach.
+	B. Stores its Genetic Information in the way of binary code (the one that codifies the executables that constitute the organism).
+	C. It makes random changes to the bytes that codifies its offspring with a certain probability.
+	D. The user of the computer, antivirus, drives and the computer itself are the environment on which Omega has to survive and reproduce, they apply pressure, and they 		change with time, forcing Omega to adapt and evolve.
 But apart of all that, if I want this organism to really evolve in the freest way possible, I need it to propagate without the user’s knowledge, because I don’t think many people would want a living organism to be in their computer.
 
 # How does Omega work? (In a nutshell)

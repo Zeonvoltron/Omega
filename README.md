@@ -60,6 +60,8 @@ Warning: Omega can change its own bytes, any malfunction cud harm your files. Ac
 # Unresolved Issues:
 The idea is Omega to be undetectable and completely silent, but unfortunately, every time one of the executables is opened, it displays a window, so the user can tell something is off. Aldo I managed to make the window close almost instantly, it can still be seen.
 
+Its a litlle demanding for the CPU.
+
 # Future Upgrades:
 Omega can upgrade by itself, but very slowly, and I’m sure it cud be much better and efficient, so I will probably upload some upgraded versions in the future. Some upgrades might be little, changing some details, but I also have some big changes in mind, almost like an Omega2.
 Either way, by publishing the code I hope other people can make their own Omega upgrades/versions. At the end the fittest will thrive.

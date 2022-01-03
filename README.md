@@ -18,7 +18,9 @@ D. Environmental pressure can produce a selection of the best organisms in the t
 environments to keep reproducing, or being the best at it.
 	
 (As you can see, I’m focusing on the characteristics of life that enables it to evolve)
+
 So, if I want a program to be “alive”, I need it to have those characteristics.
+
 In this case Omega accomplishes those four characteristics the following way:
 
 A. Makes copies of itself in every drive it can reach.
@@ -32,18 +34,27 @@ But apart of all that, if I want this organism to really evolve in the freest wa
 
 # How does Omega work? (In a nutshell)
 Omega as an organism consist of three individual executables (Omega.exe, alpha.exe and delta.exe) and an ico file (the ico of a default folder). The part of Omega that behaves like a Digital Organism is Omega.exe, the other two executables just help Omega.exe to work.
+
 Omega.exe is an algorithm that searches for drives with enough free space to copy itself to it. Once it finds them it copies the Omega folder with all its contents to the drive and hides the folder, then makes a hidden folder called “SafeFiles” and moves to it every child item of the drive (except those that are hidden). Then makes a shortcut called “Safefiles” (with the SafeFiles ico, a folder ico) that targets delta.exe (the one that is in that drive).
+
 Delta.exe is a very simple program that opens the SafeFiles folder and starts Omega.exe (the one that is in the same Omega folder). This way, when that drive is opened in another computer and the user double clicks SafeFiles.lnk, he can access the files of the drive normally, but simultaneously, without knowing, the Omega.exe of the drive copies the omega folder with its content to de local drive of the computer and starts the Omega.exe of that drive, so Omega is installed in that computer, and the Omega.exe of the drive shuts itself down.
+
 Once this new Omega.exe is started in this new computer, apart of searching for drives to copy itself like I explained before, it moves every folder on the desktop to a hidden folder in the local drive and leaves shortcuts in the desktop with the same name of the folders it moved and the SafeFiles ico. Each one of these shortcuts targets an alpha.exe, which when executed, opens the file with the shortcuts name and executes silently the Omega.exe in the local drive. This way, every time the user wants to access a given folder of his desktop, he can do it normally, but without knowing, he also activates Omega, which remains active, looking for drives to copy itself until the computer is shut down. When the computer is turned on again, Omega.exe is not running, but when the user enters one of his desktop “folders”, Omega.exe will be activated again and the cycle repeats.
+
 Apart of all that, every time Omega.exe copies the omega folder to another drive, there is a small probability that it also mutates everything inside the Omega folder it just copied.
 
 # Developers:
 Omega was developed by Lorenzo Vittone in collaboration with Gregorio Vittone.
+
 Disclaimer: none of us is a real programmer, we learned the basics of PowerShell in less than a month just to make Omega, so you might see a lot of nonprofessional code in the scripts. Github and other programing webpages where of big help to make Omega.
 
 # How to install Omega?
 To install Omega, just download the Omega file available in the “view code” section and move it to C: \, once there double click the Omega.exe that is inside the folder, and its done. You should see how your desktop folders are replaced one by one by a shortcut with the same name of the folder.
+
 Alternatively, you cud download the PowerShell scrips to edit them, compile them, and then do the installation with those files. The compiled files uploaded were created using PS2EXE compiler with the arguments -NoOutput, -NoError and -noVisualStyles.
+
+Omega was designed in and for Windows OS, so it might not work on other OS.
+
 Warning: Omega can change its own bytes, any malfunction cud harm your files. Act on your own risk! We are not responsible of anything that Omega might do if you release it.
 
 # Unresolved Issues:

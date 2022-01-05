@@ -33,7 +33,7 @@ D. The user of the computer, antivirus, drives and the computer itself are the e
 But apart of all that, if I want this organism to really evolve in the freest way possible, I need it to propagate without the user’s knowledge, because I don’t think many people would want a living organism to be in their computer.
 
 # How does Omega work? (In a nutshell)
-Omega as an organism consist of three individual executables (Omega.exe, alpha.exe and delta.exe) and an ico file (the ico of a default folder). The part of Omega that behaves like a Digital Organism is Omega.exe, the other two executables just help Omega.exe to work.
+Omega as an organism consist of three individual executables (Omega.exe, alpha.exe and delta.exe), an ico file (the ico of a default folder) and an ID.txt file. The part of Omega that behaves like a Digital Organism is Omega.exe, the other two executables just help Omega.exe to work.
 
 Omega.exe is an algorithm that searches for drives with enough free space to copy itself to it. Once it finds them it copies the Omega folder with all its contents to the drive and hides the folder, then makes a hidden folder called “SafeFiles” and moves to it every child item of the drive (except those that are hidden). Then makes a shortcut called “Safefiles” (with the SafeFiles ico, a folder ico) that targets delta.exe (the one that is in that drive).
 
@@ -41,7 +41,9 @@ Delta.exe is a very simple program that opens the SafeFiles folder and starts Om
 
 Once this new Omega.exe is started in this new computer, apart of searching for drives to copy itself like I explained before, it moves every folder on the desktop to a hidden folder in the local drive and leaves shortcuts in the desktop with the same name of the folders it moved and the SafeFiles ico. Each one of these shortcuts targets an alpha.exe, which when executed, opens the file with the shortcuts name and executes silently the Omega.exe in the local drive. This way, every time the user wants to access a given folder of his desktop, he can do it normally, but without knowing, he also activates Omega, which remains active, looking for drives to copy itself until the computer is shut down. When the computer is turned on again, Omega.exe is not running, but when the user enters one of his desktop “folders”, Omega.exe will be activated again and the cycle repeats.
 
-Apart of all that, every time Omega.exe copies the omega folder to another drive, there is a small probability that it also mutates everything inside the Omega folder it just copied.
+Apart of all that, every time Omega.exe copies the omega folder to another drive, there is a small probability that it also mutates some of the files inside the Omega folder it just copied.
+
+ID.txt content serves as a way for diferent Omegas to identify other Omegas as "family members" or not. If the ID.txt content of two Omegas is not the same, one of them will eliminate the other and leave its offsprint in its place.
 
 # Developers:
 Omega was developed by Lorenzo Vittone in collaboration with Gregorio Vittone.
@@ -49,9 +51,9 @@ Omega was developed by Lorenzo Vittone in collaboration with Gregorio Vittone.
 Disclaimer: none of us is a real programmer, we learned the basics of PowerShell in less than a month just to make Omega, so you might see a lot of nonprofessional code in the scripts. Github and other programing webpages where of big help to make Omega.
 
 # How to install Omega?
-To install Omega, just download the Omega file available in the “view code” section and move it to "C:\", once there double click the Omega.exe that is inside the folder, and its done. You should see how your desktop folders are replaced one by one by a shortcut with the same name of the folder.
+To install Omega, just download the Omega file inside the last Omega(date) version available in the “view code” section and move it to "C:\", once there double click the Omega.exe that is inside the folder, and its done. You should see how your desktop folders are replaced one by one by a shortcut with the same name of the folder.
 
-Alternatively, you cud download the PowerShell scrips to edit them, compile them, and then do the installation with those files. The compiled files uploaded were created using PS2EXE compiler with the arguments -NoOutput, -NoError and -noVisualStyles.
+Alternatively, you cud download the PowerShell scrips inside the last Omega(date) folder to edit them, compile them, and then do the installation with those files. The compiled files uploaded were created using PS2EXE compiler with the arguments -NoOutput, -NoError and -noVisualStyles.
 
 Omega was designed in and for Windows OS, so it might not work on other OS.
 

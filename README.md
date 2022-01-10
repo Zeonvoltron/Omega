@@ -1,5 +1,5 @@
 # Omega: What is it?
-Omega is a Digital Organism. It replicates from drive to drive, and its offspring can mutate, so environmental pressure can be applied to them, and so evolution can occur. In other words, it’s like a very simple bacteria, but digital.
+Omega is a Digital Organism. It replicates from drive to drive, and its offspring can mutate, so environmental pressure can be applied to them, and so evolution can occur.
 Its not a malicious program, but it cud evolve into one.
 
 # What is the goal of creating Omega?

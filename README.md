@@ -43,7 +43,7 @@ Once this new Omega.exe is started in this new computer, apart of searching for 
 
 Apart of all that, every time Omega.exe copies the omega folder to another drive, there is a small probability that it also mutates some of the files inside the Omega folder it just copied.
 
-ID.txt content serves as a way for diferent Omegas to identify other Omegas as "family members" or not. If the ID.txt content of two Omegas is not the same, one of them will eliminate the other and leave its offsprint in its place.
+ID.txt content serves as a way for diferent Omegas to identify other Omegas as "family members" or not. If the ID.txt content of two Omegas is not the same, one of them will eliminate the other and leave its offspring in its place.
 
 # Developers:
 Omega was developed by Lorenzo Vittone in collaboration with Gregorio Vittone.

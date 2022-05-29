@@ -29,7 +29,7 @@ B. Stores its Genetic Information in the way of binary code (the one that codifi
 
 C. It makes random changes to the bytes that codifies its offspring with a certain probability.
 
-D. The user of the computer, antivirus, drives and the computer itself are the environment on which Omega has to survive and reproduce, they apply pressure, and they 		change with time, forcing Omega to adapt and evolve.
+D. The user of the computer, antivirus, drives and the computer itself are the environment on which Omega has to survive and reproduce, they apply pressure and they 		change with time, forcing Omega to adapt and evolve.
 But apart of all that, if I want this organism to really evolve in the freest way possible, I need it to propagate without the user’s knowledge, because I don’t think many people would want a living organism to be in their computer.
 
 # How does Omega work? (In a nutshell)

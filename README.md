@@ -12,7 +12,7 @@ A. It reproduces (makes copies of itself).
 
 B. It has a way of storing the instructions of how it works, and how to make itself (Genetic Information), and that information is passed to the offspring.
 	
-C. Its Genetic Information can suffer mutations, which can influence the behavior of the organism and are passed to the offspring.
+C. Its Genetic Information can suffer mutations, which can influence the behavior of the organism, and those changes are passed to the offspring.
 	
 D. Environmental pressure can produce a selection of the best organisms in the task of reproducing, making the organisms change over time and adapt to changing 
 environments to keep reproducing, or being the best at it.
